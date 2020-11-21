@@ -3,6 +3,12 @@
   src: url('../fonts/Selectric Script.ttf') format('truetype');
 }
 
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: 10px 0;
+}
+
 h1 {
   font-family: 'Selectric Script';
   font-weight: bold;
@@ -14,14 +20,18 @@ font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-    color: grey;
+    color: coral;
   }
+
 
   body {
     background-image: url('../images/greyforrest.png');
   }
 
+
 h2 {
+  position:relative
+
   font-weight: bold;
   font-style: italic;
   text-align: center;
@@ -33,17 +43,36 @@ font-family: 'Libre Baskerville', serif;
 p {
   line-height: 1.4em;
   letter-spacing: .1em;
-  text-align: center;
+  text-align: relative;
+  margin: 10px 350px 40px 300px;
 }
 
-
-
-img {
+.greenpurse {
  display: block;
  margin-left: auto;
  margin-right: auto;
  width: 40%;
- border: 3px solid black;
+ border: 2px solid black;
+}
+
+.palmart {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 40%;
+ border: 2px solid black;
+}
+
+.blue {
+ margin-left: 0px;
+ margin-right: 200px;
+ margin-top: 170px;
+ width: 100px;
+ float: left;
+}
+
+.greenpurse:hover {
+  opacity: .6;
 }
 
 h3 {
@@ -58,3 +87,33 @@ h3 {
 h3 {
 font-family: 'Libre Baskerville', serif;
 }
+
+.custom-text{
+  color: green;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.logo {
+  position:relative;
+}
+
+.logo {
+  height:40%;
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo {
+  animation: wind 20s linear infinite ;
+}
+
+@keyframes wind {
+  from {
+  left: -100px;
+}
+  to {
+    left: 500px;
+  }
