@@ -1,7 +1,6 @@
 ul {
   list-style-type: none;
   margin: 0px;
-  padding: 0x;
   margin-left: 0px;
   margin-right: auto;
   text-align: center;
@@ -21,9 +20,10 @@ section {
 
 h1 {
   font-family: 'Selectric Script';
-  font-weight: bold;
+  ;font-weight: bold;
   font-style: italic;
   text-align: center;
+
 }
 h1 {
 font-family: 'Libre Baskerville', serif;
@@ -40,7 +40,7 @@ h2 {
 
 
 h2 {
-  position:relative
+  position:relative;
 
   font-weight: bold;
   font-style: italic;
@@ -52,10 +52,8 @@ font-family: 'Libre Baskerville', serif;
 }
 
 p {
-  display: inline-block
   line-height: 1.4em;
   letter-spacing: .1em;
-  text-align: relative;
   margin: 10px 350px 40px 300px;
 }
 
@@ -107,15 +105,12 @@ font-family: 'Libre Baskerville', serif;
 }
 
 .logo {
-  position:relative;
-}
-
-.logo {
   height:40%;
 }
 
 .logo {
   position: absolute;
+  height:40%;
 }
 
 .logo {
@@ -123,9 +118,6 @@ font-family: 'Libre Baskerville', serif;
 }
 
 @keyframes wind {
-  from {
-  left: -100px;
+  from {left: -100px;}
+  to {left: 500px;}
 }
-  to {
-    left: 500px;
-  }
